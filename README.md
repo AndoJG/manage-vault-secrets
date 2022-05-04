@@ -19,11 +19,12 @@ This tool cannot be used for yaml where the entire file has been encrypted with 
 
 ## setup
 
-Create a virutal env and install requirements
+Create a pipenv and activate env
 
-* `python3 -m venv </path/to/venv>`
-* `source </path/to/venv/bin/activate>`
-* `pip install -r requirements.txt`
+* `pipenv install`
+  * first time only, or when requirements are updated
+* `pipenv shell`
+  * must source env before use
 
 ## usage
 
