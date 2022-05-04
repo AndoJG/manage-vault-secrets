@@ -17,6 +17,12 @@ foo: !vault |
 
 This tool cannot be used for yaml where the entire file has been encrypted with Ansible-vault
 
+## requirements
+
+* python 3.10
+* pyenv
+* pipenv
+
 ## setup
 
 Create a pipenv and activate env
