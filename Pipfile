@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ansible = "==5.4.0"
+ansible-core = "==2.12.3"
+certifi = "==2020.12.5"
+cffi = "==1.15.0"
+chardet = "==4.0.0"
+click = "==7.1.2"
+cryptography = "==36.0.1"
+idna = "==2.10"
+pycparser = "==2.21"
+pyparsing = "==3.0.7"
+requests = "==2.25.1"
+resolvelib = "==0.5.4"
+"ruamel.yaml" = "==0.17.21"
+"ruamel.yaml.clib" = "==0.2.6"
+typer = "==0.4.1"
+urllib3 = "==1.26.5"
+Jinja2 = "==3.0.3"
+MarkupSafe = "==2.1.0"
+PyYAML = "==6.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
